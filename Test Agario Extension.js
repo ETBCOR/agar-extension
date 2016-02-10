@@ -32,3 +32,16 @@ window.onload = function() {
        $('#adbg').css('background-image', "url('/blocker.png')");
     };
 
+
+    //zoom
+    window.agar.minScale = -30;
+
+    //draws grid, true = yes, and false = no
+    window.agar.drawGrid = false;
+
+    //sets dark theme to true on extension load
+    setDarkTheme(true);
+
+    //sets show mass to true on extension load
+    setShowMass(true);
+}
