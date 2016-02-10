@@ -30,12 +30,6 @@ window.onload = function() {
     $(".btn-logout").css({"width": "152.5px", "margin-bottom": "12px"});
     $(".btn-spectate").css({"width": "152.5px"});
 
-    hasAdblock = false;
-
-    if(hasAdblock){
-       $('#adbg').css('background-image', "url('/blocker.png')");
-    };
-
     //Make sure when you login it re-enables settings menu. 
     $(".btn-login.btn-fb").replaceWith('<button onclick="toggleSettings(); facebookLogin(); return false;" class="col-lg-12 col-md-12 btn btn-primary btn-login btn-fb" style=""><span class="social social-facebook fb-icon"></span><span class="btn-text" data-itr="menu_login_facebook">Sign in with Facebook</span></button>');
     $("gplusLogin").replaceWith('<button onclick="toggleSettings();" id="gplusLogin" class="col-lg-12 col-md-12 btn btn-primary btn-gplus btn-login"><span class="gplus-icon"></span><span class="btn-text" data-itr="menu_login_google">Sign in with Google</span></button>');
