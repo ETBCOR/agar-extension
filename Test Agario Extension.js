@@ -56,4 +56,12 @@ window.onload = function() {
 	//draws grid, true = yes, and false = no
 	window.agar.drawGrid = false;
 
+
+	//Options Edits
+	$("#options label:nth-child(1)").css({"border-bottom": "solid #848484 5px", "padding-bottom": "2px", "margin-bottom": "4px"});
+	$("#options label:nth-child(2)").css({"border-bottom": "solid #848484 5px", "padding-bottom": "2px", "margin-bottom": "4px"});
+	$("#options label:nth-child(3)").css({"border-bottom": "solid #848484 5px", "padding-bottom": "2px", "margin-bottom": "4px"});
+	$("#options label:nth-child(4)").trigger("click");
+	$("#options label:nth-child(5)").trigger("click");
+	$("#options label:nth-child(6)").trigger("click");
 }
