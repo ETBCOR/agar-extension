@@ -16,6 +16,9 @@
 //waits for the page to load
 window.onload = function() {
 
+	//Remove bg image.
+	agar.showStartupBg = false;
+
 	//Add gamepad side-panel.
 	$(".agario-promo").replaceWith('<div class="agario-panel agario-side-panel" style="padding-left: 15px; padding-bottom: 15px; padding-right: 15px;"><h4 style="text-align: center;">Gamepad Mode</h4><button class="btn btn-gamepad">Gamepad Mode</button><button class="btn btn-no-gamepad">Regular Mode</button></div>');
 	$(".btn-gamepad").on('click', function () {window.location = 'http://www.agar.io/?gamepad'});
