@@ -46,4 +46,7 @@ window.onload = function() {
 	//zoom
 	window.agar.minScale = -30;
 
+	//draws grid, true = yes, and false = no
+	window.agar.drawGrid = false;
+
 }
