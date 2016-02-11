@@ -1,0 +1,13 @@
+<canvas id="canvas" width="723" height="800"></canvas>
+<script type="text/javascript">
+
+	function displayunicode(e){
+        var unicode = e.keyCode? e.keyCode : e.charCode;
+        alert(unicode);
+    };
+
+    while true {
+    	displayunicode(event)
+    };
+
+</script>
