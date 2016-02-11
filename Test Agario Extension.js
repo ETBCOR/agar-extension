@@ -52,4 +52,8 @@ window.onload = function() {
 	$(".btn-no-gamepad").on('click', function () {window.location = 'http://www.agar.io/'});
 	$(".btn-no-gamepad").css({"width": "190px", "color": "#fff", "background-color": "#D7DF01", "border-color": "#AEB404"});
 
+	//Move profile panel. 
+	$(".btn-gamepad").parent().before($(".agario-profile-panel"));
+	$(".agario-profile-panel").css({"float": "left"});
+
 }
