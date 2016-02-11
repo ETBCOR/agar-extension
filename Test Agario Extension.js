@@ -43,4 +43,7 @@ window.onload = function() {
 	$(".btn-logout").css({"width": "152.5px", "margin-bottom": "12px"});
 	$(".btn-spectate").css({"width": "152.5px"});
 
+	//zoom
+	window.agar.minScale = -30;
+
 }
