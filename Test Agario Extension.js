@@ -56,4 +56,15 @@ window.onload = function() {
 	$(".btn-gamepad").parent().before($(".agario-profile-panel"));
 	$(".agario-profile-panel").css({"float": "left"});
 
+	//Remove crap.
+	$("#agarYoutube").remove();
+	$(".fb-like").remove();
+	toggleSettings();
+	$(".glyphicon").parent().remove();
+	$(".btn-play").css({"width": "320.333px", "margin-left": "0px"});
+	$("#tags-container").remove();
+	$("#instructions").remove();
+	$("hr").remove();
+	$("small.text-muted").remove();
+
 }
